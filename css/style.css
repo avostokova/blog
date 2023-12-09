@@ -659,3 +659,18 @@ body._lock {
   right: 0;
   z-index: -1;
 } */
+
+@media (max-width: 900px) {
+  .page {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .page__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  .page__imgs img {
+    width: 80px;
+  }
+}
